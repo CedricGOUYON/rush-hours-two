@@ -17,6 +17,7 @@ body {
   display: flex;
   justify-content: center;
   text-align: center;
+
   p {
     width: 80%;
   }
@@ -53,4 +54,5 @@ a {
 p {
   width: 80%;
   margin: auto;
+  text-justify: initial;
 }

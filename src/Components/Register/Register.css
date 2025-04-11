@@ -1,7 +1,13 @@
 form {
   border: 1px solid #646cff;
+  box-shadow: 5px 5px gray;
+  border-radius: 15px;
   padding: 20px;
-  margin: 80px 40px;
+  margin: 80px 35%;
+
+  @media screen and (max-width: 650px) {
+    margin: 80px 10%;
+  }
   label {
     color: #646cff;
   }
