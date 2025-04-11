@@ -1,8 +1,15 @@
+import { Link } from "react-router-dom";
+import "./header.css";
+
 function Header() {
   return (
     <>
-      <p>header</p>
-      <p>header</p>
+      <header>
+        <nav>
+          <Link to="/">Home</Link>
+          <Link to="/register">Sign in</Link>
+        </nav>
+      </header>
     </>
   );
 }

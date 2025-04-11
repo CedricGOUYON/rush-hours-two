@@ -1,0 +1,19 @@
+form {
+  border: 1px solid #646cff;
+  padding: 20px;
+  margin: 80px 40px;
+  label {
+    color: #646cff;
+  }
+
+  #submit {
+    background-color: #646cff;
+    color: white;
+    padding: 5px 20px;
+
+    &:hover {
+      background-color: rgb(32, 181, 32);
+      transition: 0.5s;
+    }
+  }
+}
